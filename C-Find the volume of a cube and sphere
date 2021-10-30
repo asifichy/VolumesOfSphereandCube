@@ -1,0 +1,25 @@
+#include<stdio.h>
+//#include<math.h>
+
+const float pi = 3.1416;
+
+int main()
+{
+    int radius, length;
+
+    printf("Enter radius of a sphere: ");
+    scanf("%d", &radius);
+
+    printf("Enter length of a cube: ");
+    scanf("%d", &length);
+
+    float sphere = (4/3.0)*pi*radius*radius*radius;
+
+    float cube = length*length*length;
+
+    printf("The volume of a sphere is: %.2f \n", sphere);
+
+    printf("The volume of a cube is: %.2f \n", cube);
+
+    return 0;
+}
